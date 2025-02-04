@@ -1,0 +1,8 @@
+{
+  "key": "dvs-vc-katalog",
+  "displayName": "DVS VC Katalog",
+  "templateUrls": [
+    "https://raw.githubusercontent.com/UbiqueInnovation/dvs-vc-katalog-example/refs/heads/main/templates/template_01.json?token=GHSAT0AAAAAACXHN3ZEIRCYAB3A34ITCWWYZ5B6JRA",
+    "https://raw.githubusercontent.com/UbiqueInnovation/dvs-vc-katalog-example/refs/heads/main/templates/template_02.json?token=GHSAT0AAAAAACXHN3ZFNQ53PTJRGHTUCLV4Z5B6KVA"
+  ]
+}

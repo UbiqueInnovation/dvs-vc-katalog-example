@@ -1,0 +1,100 @@
+{
+  "id": "123e4567-e89b-12d3-a456-426614174000",
+  "type": "HEIDI_CREDENTIAL_SCHEMA_TEMPLATE",
+  "displayName": "DVS Wohnsitzbestätigung V1.1",
+  "libraryKey": "dvs-vc-katalog",
+  "attributes": [
+    {
+      "name": "firstname",
+      "type": "STRING",
+      "displayName": {
+        "en": "First Name",
+        "de": "Vorname"
+      }
+    },
+    {
+      "name": "lastname",
+      "type": "STRING",
+      "displayName": {
+        "en": "Last Name",
+        "de": "Nachname"
+      }
+    },
+    {
+      "name": "dateOfBirth",
+      "type": "DATE",
+      "displayName": {
+        "en": "Date of birth",
+        "de": "Geburtstag"
+      }
+    },
+    {
+      "name": "street",
+      "type": "STRING",
+      "displayName": {
+        "en": "Street",
+        "de": "Strasse"
+      }
+    },
+    {
+      "name": "zip",
+      "type": "STRING",
+      "displayName": {
+        "en": "Zip Code",
+        "de": "PLZ"
+      }
+    },
+    {
+      "name": "place",
+      "type": "STRING",
+      "displayName": {
+        "en": "Place",
+        "de": "Ort"
+      }
+    }
+  ],
+  "issuerSettings": {
+    "issuerKeyType": "HARDWARE_BIOMETRIC_AUTH",
+    "doctype": "dvs-wohnsitzbestaetigung-v1.1-mdl",
+    "namespace": "dvs-wohnsitzbestaetigung-v1.1-mdl",
+    "vct": "dvs-wohnsitzbestaetigung-v1.1-sdjwt"
+  },
+  "attributeRules": {
+    "firstname": {
+      "description": "First name of the user",
+      "isDisplayNameEditable": true,
+      "isRequired": true,
+      "canBeEmpty": false
+    },
+    "lastname": {
+      "description": "Last name of the user",
+      "isDisplayNameEditable": true,
+      "isRequired": true,
+      "canBeEmpty": false
+    },
+    "dateOfBirth": {
+      "description": "User's date of birth",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "street": {
+      "description": "Street address",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": true
+    },
+    "zip": {
+      "description": "Postal zip code",
+      "isDisplayNameEditable": false,
+      "isRequired": true,
+      "canBeEmpty": false
+    },
+    "place": {
+      "description": "Place of residence",
+      "isDisplayNameEditable": false,
+      "isRequired": true,
+      "canBeEmpty": false
+    }
+  }
+}

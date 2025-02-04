@@ -1,0 +1,55 @@
+{
+  "id": "423e4567-e89b-12d3-a456-426614174003",
+  "type": "HEIDI_CREDENTIAL_SCHEMA_TEMPLATE",
+  "displayName": "Basic Health Information",
+  "libraryKey": "dvs-vc-katalog",
+  "attributes": [
+    {
+      "name": "bloodType",
+      "type": "STRING",
+      "displayName": {
+        "en": "Blood Type"
+      }
+    },
+    {
+      "name": "allergies",
+      "type": "STRING",
+      "displayName": {
+        "en": "Allergies"
+      }
+    },
+    {
+      "name": "emergencyContact",
+      "type": "STRING",
+      "displayName": {
+        "en": "Emergency Contact"
+      }
+    }
+  ],
+  "issuerSettings": {
+    "issuerKeyType": "HARDWARE_BIOMETRIC_AUTH",
+    "doctype": "dvs-health-basic-info-mdl",
+    "namespace": "dvs-health-basic-info-mdl",
+    "vct": "dvs-health-basic-info-sdjwt"
+  },
+  "attributeRules": {
+    "bloodType": {
+      "description": "User's blood type (e.g., A+, O-, etc.)",
+      "isDisplayNameEditable": false,
+      "isRequired": true,
+      "canBeEmpty": false
+    },
+    "allergies": {
+      "description": "Known allergies (e.g., nuts, penicillin, etc.)",
+      "isDisplayNameEditable": true,
+      "isRequired": false,
+      "canBeEmpty": true
+    },
+    "emergencyContact": {
+      "description": "Emergency contact name and phone number",
+      "isDisplayNameEditable": true,
+      "isRequired": true,
+      "canBeEmpty": false
+    }
+  }
+}

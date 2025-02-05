@@ -1,6 +1,6 @@
 {
   "id": "423e4567-e89b-12d3-a456-426614174003",
-  "type": "HEIDI_CREDENTIAL_SCHEMA_TEMPLATE",
+  "type": "CredentialSchemaTemplate",
   "displayName": "Basic Health Information",
   "libraryKey": "dvs-vc-katalog",
   "attributes": [

@@ -4,6 +4,6 @@
   "templateUrls": [
     "https://raw.githubusercontent.com/UbiqueInnovation/dvs-vc-katalog-example/refs/heads/main/templates/template_01.json",
     "https://raw.githubusercontent.com/UbiqueInnovation/dvs-vc-katalog-example/refs/heads/main/templates/template_02.json",
-    "https://raw.githubusercontent.com/UbiqueInnovation/dvs-vc-katalog-example/refs/heads/main/templates/Wohnsitzbest%C3%A4tigung.json"
+    "https://raw.githubusercontent.com/UbiqueInnovation/dvs-vc-katalog-example/refs/heads/main/templates/Wohnsitzbestaetigung_v1_2.json"
   ]
 }

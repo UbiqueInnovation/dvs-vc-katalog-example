@@ -182,13 +182,13 @@
   "attributeRules": {
     "Vornamen": {
       "description": "Vorname(n)",
-      "isDisplayNameEditable": true,
+      "isDisplayNameEditable": false,
       "isRequired": true,
       "canBeEmpty": false
     },
     "Name": {
       "description": "Name",
-      "isDisplayNameEditable": true,
+      "isDisplayNameEditable": false,
       "isRequired": true,
       "canBeEmpty": false
     },
@@ -280,25 +280,25 @@
       "description": "Zuzugsdatum",
       "isDisplayNameEditable": false,
       "isRequired": false,
-      "canBeEmpty": false
+      "canBeEmpty": true
     },
     "Zuzugsort": {
       "description": "Zuzugsort",
       "isDisplayNameEditable": false,
       "isRequired": false,
-      "canBeEmpty": false
+      "canBeEmpty": true
     },
     "Wegzugsdatum": {
       "description": "Wegzugsdatum",
       "isDisplayNameEditable": false,
       "isRequired": false,
-      "canBeEmpty": false
+      "canBeEmpty": true
     },
     "Wegzugsort": {
       "description": "Wegzugsort",
       "isDisplayNameEditable": false,
       "isRequired": false,
-      "canBeEmpty": false
+      "canBeEmpty": true
     },
     "EWID": {
       "description": "EWID",
@@ -316,7 +316,7 @@
       "description": "Bemerkungen",
       "isDisplayNameEditable": false,
       "isRequired": false,
-      "canBeEmpty": false
+      "canBeEmpty": true
     }
   }
 }

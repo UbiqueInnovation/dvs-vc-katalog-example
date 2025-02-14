@@ -8,7 +8,7 @@
     "doctype": "dvs-wohnsitzbestaetigung-v1.2-mdl",
     "namespace": "dvs-wohnsitzbestaetigung-v1.2-mdl",
     "vct": "dvs-wohnsitzbestaetigung-v1.2-sdjwt"
-  },  
+  },
   "attributes": [
     {
       "name": "Ausstelldatum",
@@ -88,98 +88,98 @@
       "displayName": {
         "en": "Nationality",
         "de": "Nationalität"
-     }
-   },
-   {
+      }
+    },
+    {
       "name": "Strasse",
       "type": "STRING",
       "displayName": {
-        "en": "Strasse",
+        "en": "Street",
         "de": "Strasse"
-     }
-   },
-{
+      }
+    },
+    {
       "name": "Hausnummer",
       "type": "NUMBER",
       "displayName": {
-        "en": "Hausnummer",
+        "en": "House Number",
         "de": "Hausnummer"
-     }
-   },
-{
+      }
+    },
+    {
       "name": "PLZ",
       "type": "NUMBER",
       "displayName": {
-        "en": "PLZ",
+        "en": "Postal Code",
         "de": "PLZ"
-     }
-   },
-{
+      }
+    },
+    {
       "name": "Ort",
       "type": "STRING",
       "displayName": {
-        "en": "Ort",
+        "en": "City",
         "de": "Ort"
-     }
-   },
-{
+      }
+    },
+    {
       "name": "EGID",
       "type": "NUMBER",
       "displayName": {
         "en": "EGID",
         "de": "EGID"
-     }
-   },
-{
+      }
+    },
+    {
       "name": "EWID",
       "type": "NUMBER",
       "displayName": {
         "en": "EWID",
         "de": "EWID"
-     }
-   },
-{
+      }
+    },
+    {
       "name": "Zuzugsdatum",
       "type": "DATE",
       "displayName": {
-        "en": "Zuzugsdatum",
+        "en": "Move-in Date",
         "de": "Zuzugsdatum"
-     }
-   },
-{
+      }
+    },
+    {
       "name": "Zuzugsort",
       "type": "STRING",
       "displayName": {
-        "en": "Zuzugsort",
+        "en": "Previous Residence",
         "de": "Zuzugsort"
-     }
-   },
-{
+      }
+    },
+    {
       "name": "Wegzugsdatum",
       "type": "DATE",
       "displayName": {
-        "en": "Wegzugsdatum",
+        "en": "Move-out Date",
         "de": "Wegzugsdatum"
-     }
-   },
-{
+      }
+    },
+    {
       "name": "Wegzugsort",
       "type": "STRING",
       "displayName": {
-        "en": "Wegzugsort",
+        "en": "New Residence",
         "de": "Wegzugsort"
-     }
-   },
-{
+      }
+    },
+    {
       "name": "Bemerkungen",
       "type": "STRING",
       "displayName": {
-        "en": "Bemerkungen",
+        "en": "Remarks",
         "de": "Bemerkungen"
-     }
-   },
-  ] 
-"attributeRules": {
+      }
+    }
+  ],
+  "attributeRules": {
     "firstname": {
       "description": "Vorname(n)",
       "isDisplayNameEditable": true,
@@ -223,9 +223,10 @@
       "canBeEmpty": false
     },
     "EWID": {
-      "description": "Wohnungsnummernummer",
+      "description": "Wohnungsnummer",
       "isDisplayNameEditable": false,
       "isRequired": false,
       "canBeEmpty": false
-    },
-  },
+    }
+  }
+}

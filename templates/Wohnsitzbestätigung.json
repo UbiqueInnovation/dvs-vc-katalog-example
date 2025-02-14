@@ -91,27 +91,27 @@
      }
    },
    {
-      "name": "Strasse   ",
+      "name": "Strasse",
       "type": "STRING",
       "displayName": {
-        "en": "Strasse   ",
-        “de”: “Strasse   ”
+        "en": "Strasse",
+        “de”: “Strasse”
      }
    },
 {
-      "name": "Hausnummer   ",
+      "name": "Hausnummer",
       "type": "NUMBER",
       "displayName": {
-        "en": "Hausnummer   ",
-        “de”: “Hausnummer   ”
+        "en": "Hausnummer",
+        “de”: “Hausnummer”
      }
    },
 {
-      "name": "PLZ   ",
+      "name": "PLZ",
       "type": "NUMBER",
       "displayName": {
-        "en": "PLZ   ",
-        “de”: “PLZ   ”
+        "en": "PLZ",
+        “de”: “PLZ”
      }
    },
 {

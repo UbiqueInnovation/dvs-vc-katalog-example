@@ -59,7 +59,7 @@
       }
     },
     {
-      "name": "Vorname(n)",
+      "name": "Vorname",
       "type": "STRING",
       "displayName": {
         "en": "First Name",
@@ -180,38 +180,38 @@
     }
   ],
   "attributeRules": {
-    "firstname": {
+    "Vornamen": {
       "description": "Vorname(n)",
       "isDisplayNameEditable": true,
       "isRequired": true,
       "canBeEmpty": false
     },
-    "lastname": {
+    "Name": {
       "description": "Name",
       "isDisplayNameEditable": true,
       "isRequired": true,
       "canBeEmpty": false
     },
-    "dateOfBirth": {
-      "description": "User's date of birth",
+    "Geburtsdatum": {
+      "description": "Geburtsdatum",
       "isDisplayNameEditable": false,
       "isRequired": true,
       "canBeEmpty": false
     },
-    "street": {
-      "description": "Street address",
+    "Strasse": {
+      "description": "Strasse",
       "isDisplayNameEditable": false,
       "isRequired": false,
       "canBeEmpty": true
     },
-    "zip": {
-      "description": "Postal zip code",
+    "PLZ": {
+      "description": "Postleitzahl",
       "isDisplayNameEditable": false,
       "isRequired": true,
       "canBeEmpty": false
     },
-    "place": {
-      "description": "Place of residence",
+    "Ort": {
+      "description": "Ort",
       "isDisplayNameEditable": false,
       "isRequired": true,
       "canBeEmpty": false

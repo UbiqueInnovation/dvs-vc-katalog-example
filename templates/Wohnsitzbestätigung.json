@@ -178,7 +178,7 @@
         "de": "Bemerkungen"
      }
    },
-
+  ] 
 "attributeRules": {
     "firstname": {
       "description": "Vorname(n)",
@@ -228,5 +228,4 @@
       "isRequired": false,
       "canBeEmpty": false
     },
-
-  }
+  },

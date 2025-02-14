@@ -140,7 +140,7 @@
    },
 {
       "name": "Zuzugsdatum",
-      "type": "Date of Birth",
+      "type": "DATE",
       "displayName": {
         "en": "Zuzugsdatum",
         "de": "Zuzugsdatum"
@@ -156,7 +156,7 @@
    },
 {
       "name": "Wegzugsdatum",
-      "type": "Date of Birth",
+      "type": "DATE",
       "displayName": {
         "en": "Wegzugsdatum",
         "de": "Wegzugsdatum"

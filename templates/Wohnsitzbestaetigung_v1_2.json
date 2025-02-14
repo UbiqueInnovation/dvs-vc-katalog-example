@@ -227,6 +227,84 @@
       "isDisplayNameEditable": false,
       "isRequired": false,
       "canBeEmpty": false
+    },
+    "Ausstelldatum": {
+      "description": "Ausstelldatum",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "AusstellendeBehoerde": {
+      "description": "Ausstellende Behörde",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "idAusstellendeBehoerde": {
+      "description": "ID der Ausstellenden Behörde",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "Gemeindename": {
+      "description": "Gemeindename",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "Referenznummer": {
+      "description": "Referenznummer",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "Heimatort": {
+      "description": "Heimatort",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "Nationalitaet": {
+      "description": "Nationalität",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "Hausnummer": {
+      "description": "Hausnummer",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "Zuzugsdatum": {
+      "description": "Zuzugsdatum",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "Zuzugsort": {
+      "description": "Zuzugsort",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "Wegzugsdatum": {
+      "description": "Wegzugsdatum",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "Wegzugsort": {
+      "description": "Wegzugsort",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "Bemerkungen": {
+      "description": "Bemerkungen",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
     }
   }
 }

@@ -59,7 +59,7 @@
       }
     },
     {
-      "name": "Vorname",
+      "name": "Vornamen",
       "type": "STRING",
       "displayName": {
         "en": "First Name",

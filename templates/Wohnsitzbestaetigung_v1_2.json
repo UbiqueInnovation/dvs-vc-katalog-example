@@ -300,6 +300,18 @@
       "isRequired": false,
       "canBeEmpty": false
     },
+    "EWID": {
+      "description": "EWID",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": true
+      },
+    "EGID": {
+      "description": "EGID",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": true
+    },
     "Bemerkungen": {
       "description": "Bemerkungen",
       "isDisplayNameEditable": false,

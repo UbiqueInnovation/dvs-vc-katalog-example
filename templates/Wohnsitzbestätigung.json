@@ -87,7 +87,7 @@
       "type": "STRING",
       "displayName": {
         "en": "Nationality",
-        “de”: “Nationalität”
+        "de": "Nationalität"
      }
    },
    {
@@ -95,7 +95,7 @@
       "type": "STRING",
       "displayName": {
         "en": "Strasse",
-        “de”: “Strasse”
+        "de": "Strasse"
      }
    },
 {
@@ -103,7 +103,7 @@
       "type": "NUMBER",
       "displayName": {
         "en": "Hausnummer",
-        “de”: “Hausnummer”
+        "de": "Hausnummer"
      }
    },
 {
@@ -111,7 +111,7 @@
       "type": "NUMBER",
       "displayName": {
         "en": "PLZ",
-        “de”: “PLZ”
+        "de": "PLZ"
      }
    },
 {
@@ -119,7 +119,7 @@
       "type": "STRING",
       "displayName": {
         "en": "Ort",
-        “de”: “Ort”
+        "de": "Ort"
      }
    },
 {
@@ -127,7 +127,7 @@
       "type": "NUMBER",
       "displayName": {
         "en": "EGID",
-        “de”: “EGID”
+        "de": "EGID"
      }
    },
 {
@@ -135,7 +135,7 @@
       "type": "NUMBER",
       "displayName": {
         "en": "EWID",
-        “de”: “EWID”
+        "de": "EWID"
      }
    },
 {
@@ -143,7 +143,7 @@
       "type": "Date of Birth",
       "displayName": {
         "en": "Zuzugsdatum",
-        “de”: “Zuzugsdatum”
+        "de": "Zuzugsdatum"
      }
    },
 {
@@ -151,7 +151,7 @@
       "type": "STRING",
       "displayName": {
         "en": "Zuzugsort",
-        “de”: “Zuzugsort”
+        "de": "Zuzugsort"
      }
    },
 {
@@ -159,7 +159,7 @@
       "type": "Date of Birth",
       "displayName": {
         "en": "Wegzugsdatum",
-        “de”: “Wegzugsdatum”
+        "de": "Wegzugsdatum"
      }
    },
 {
@@ -167,7 +167,7 @@
       "type": "STRING",
       "displayName": {
         "en": "Wegzugsort",
-        “de”: “Wegzugsort”
+        "de": "Wegzugsort"
      }
    },
 {
@@ -175,7 +175,7 @@
       "type": "STRING",
       "displayName": {
         "en": "Bemerkungen",
-        “de”: “Bemerkungen”
+        "de": "Bemerkungen"
      }
    },
 

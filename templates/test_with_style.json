@@ -2,7 +2,7 @@
   "id": "0f8838c0-c86d-4d9a-829a-5f0e7294d13c",
   "type": "CredentialSchemaTemplate",
   "displayName": "Test with style and meta attributes",
-  "libraryKey": "test-style-meta",
+  "libraryKey": "dvs-vc-katalog",
   "attributes": [
     {
       "name": "firstname",

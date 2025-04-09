@@ -1,0 +1,124 @@
+{
+  "id": "0f8838c0-c86d-4d9a-829a-5f0e7294d13c",
+  "type": "CredentialSchemaTemplate",
+  "displayName": "Test with style and meta attributes",
+  "libraryKey": "test-style-meta",
+  "attributes": [
+    {
+      "name": "firstname",
+      "type": "STRING",
+      "displayName": {
+        "en": "First Name",
+        "de": "Vorname"
+      }
+    },
+    {
+      "name": "lastname",
+      "type": "STRING",
+      "displayName": {
+        "en": "Last Name",
+        "de": "Nachname"
+      }
+    },
+    {
+      "name": "dateOfBirth",
+      "type": "DATE",
+      "displayName": {
+        "en": "Date of birth",
+        "de": "Geburtstag"
+      }
+    },
+    {
+      "name": "street",
+      "type": "STRING",
+      "displayName": {
+        "en": "Street",
+        "de": "Strasse"
+      }
+    },
+    {
+      "name": "zip",
+      "type": "STRING",
+      "displayName": {
+        "en": "Zip Code",
+        "de": "PLZ"
+      }
+    },
+    {
+      "name": "place",
+      "type": "STRING",
+      "displayName": {
+        "en": "Place",
+        "de": "Ort"
+      }
+    }
+  ],
+  "metaAttributes": [
+    {
+      "name": "cardTitle",
+      "displayName": {
+        "en": "Heyoo",
+        "de": "Hallooo"
+      }
+    }
+  ],
+  "style": {
+    "title": "{{cardTitle}}",
+    "subtitle": "{{firstname}} {{lastname}}",
+    "cardColor": 4278190080,
+    "textColor": "light",
+    "backgroundCard": "",
+    "orderedProperties": [
+      "firstname",
+      "lastname",
+      "dateOfBirth",
+      "street",
+      "zip",
+      "place"
+    ]
+  },
+  "issuerSettings": {
+    "issuerKeyType": "HARDWARE_BIOMETRIC_AUTH",
+    "doctype": "test-style-meta-v1.1-mdl",
+    "namespace": "test-style-meta-v1.1-mdl",
+    "vct": "test-style-meta-v1.1-sdjwt"
+  },
+  "attributeRules": {
+    "firstname": {
+      "description": "First name of the user",
+      "isDisplayNameEditable": true,
+      "isRequired": true,
+      "canBeEmpty": false
+    },
+    "lastname": {
+      "description": "Last name of the user",
+      "isDisplayNameEditable": true,
+      "isRequired": true,
+      "canBeEmpty": false
+    },
+    "dateOfBirth": {
+      "description": "User's date of birth",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": false
+    },
+    "street": {
+      "description": "Street address",
+      "isDisplayNameEditable": false,
+      "isRequired": false,
+      "canBeEmpty": true
+    },
+    "zip": {
+      "description": "Postal zip code",
+      "isDisplayNameEditable": false,
+      "isRequired": true,
+      "canBeEmpty": false
+    },
+    "place": {
+      "description": "Place of residence",
+      "isDisplayNameEditable": false,
+      "isRequired": true,
+      "canBeEmpty": false
+    }
+  }
+}
